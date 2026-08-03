@@ -6,7 +6,7 @@ import AboutSection from '../components/HomePage/AboutSection.vue'
 <template>
   <main>
     <!-- AAYUSIN PA LAYOUT DITO TANGA WAG KA MUNA SUMAWSAW PLS LANG BAKA MAPASOK KITA -->
-    <TheWelcome betlogByRicky="Betlog si Dar Green" />
+    <TheWelcome betlogByRicky="Betlog si Darnel Green" />
     <AboutSection />
   </main>
 </template>
