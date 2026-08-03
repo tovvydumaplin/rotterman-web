@@ -12,6 +12,7 @@ export default defineConfig({
     vueDevTools(),
     tailwindcss()
   ],
+  base: '/rotterman-web/',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url)),
