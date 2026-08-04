@@ -1,56 +1,60 @@
 <script setup>
 import AppContainer from '@/components/ui/AppContainer.vue';
 import Header from '@/components/layout/Navbar.vue'
-defineProps({
-  betlogByRicky: {
-    type: String,
-    required: true,
-  },
-})
+import BaseButton from '@/components/ui/BaseButton.vue';
+import heroImage from '@/assets/images/hero-image.png'
+
 </script>
 
 <template>
-  <section class="relative overflow-hidden bg-slate-950 text-white">
+  <section class="relative overflow-hidden bg-[#F7F7F0]">
     <AppContainer>
       <Header />
-      <div class="grid grid-cols-2 py-30">
-
+      <div class="grid grid-cols-2 gap-8 py-30">
         <!-- Left -->
         <div>
-          <span class="text-blue-400">
-            Welcome
-          </span>
+          <h5 class="text-sm">
+            custom software for filipino smes
+          </h5>
 
-          <h1 class="mt-6 text-5xl font-bold leading-tight lg:text-7xl">
-            Build Better
-            <span class="text-blue-500">
-              Digital Experiences
+          <h1 class="font-heading mt-2 text-8xl font-bold leading-none">
+            DIGITAL SOLUTIONS
+            <span class="primary-color">
+              BUILT AROUND YOUR BUSINESS
             </span>
           </h1>
 
-          <p class="mt-6 max-w-xl text-lg text-gray-300">
-            Create modern, responsive, and fast websites that help your business grow.
+          <p class="mt-6 max-w-xl text-md">
+            We build custom ERP, HRIS, POS, and business management systems that help Filipino companies automate workflows, improve efficiency, and scale faster.
           </p>
 
           <div class="mt-10 flex gap-4">
-            <button
-              class="rounded-xl bg-blue-600 px-8 py-4 font-semibold transition hover:bg-blue-700">
-              Get Started
-            </button>
+            <BaseButton 
+                variant="primary" 
+                size="md"
+                @click="goToPreviousTab"
+            >
+                Let’s Build Your System
+            </BaseButton>
 
-            <button
-              class="rounded-xl border border-white/20 px-8 py-4 font-semibold hover:bg-white/10">
-              Learn More
-            </button>
+            <BaseButton 
+                variant="secondary" 
+                size="md"
+                @click="goToPreviousTab"
+            >
+                Let’s Build Your System
+            </BaseButton>
           </div>
         </div>
 
 
         <!-- Right -->
         <div class="flex justify-center">
-          <div class="h-96 w-96 rounded-3xl bg-white/10">
-            gg
-          </div>
+            <img
+              :src="heroImage"
+              alt="Hero"
+              class="w-full h-auto object-cover scale-120 translate-x-10"
+            />
         </div>
 
       </div>
