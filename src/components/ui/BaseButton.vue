@@ -118,7 +118,7 @@ defineProps({
     font-size: 0.875rem;
   }
   .base-button--md {
-    padding: 0.75rem 1.5rem;
+    padding: 1rem 2rem;
     font-size: 1rem;
   }
   .base-button--lg {

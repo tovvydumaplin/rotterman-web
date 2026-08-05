@@ -1,12 +1,14 @@
 <template>
-  <HeroSection />
+
   <main>
-    <!-- AAYUSIN PA LAYOUT DITO TANGA WAG KA MUNA SUMAWSAW PLS LANG BAKA MAPASOK KITA -->
-    <TheWelcome betlogByRicky="Betlog ay Darnel Green" />
+    <HeroSection />
     <AboutSection />
+    <ProductsSection />
   </main>
 </template>
 
 <script setup>
 import HeroSection from '../components/sections/HomePage/HeroSection.vue'
+import AboutSection from '../components/sections/HomePage/AboutSection.vue'
+import ProductsSection from '../components/sections/HomePage/ProductsSection.vue'
 </script>

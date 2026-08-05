@@ -1,13 +1,13 @@
 <template>
   <header class="w-full">
-    <div class="max-w-7xl flex justify-between py-5">
+    <div class="flex justify-between py-5">
 
       <!-- Logo -->
       <div class="flex items-center">
         <img
           :src="LogoImage"
           alt="Logo"
-          class="h-10 w-auto"
+          class="h-6 md:h-8 lg:h-10 xl:h-12 w-auto"
         />
       </div>
 
@@ -15,28 +15,34 @@
       <nav class="flex items-center gap-10">
         <RouterLink
           to="/"
-          class="text-gray-700 hover:text-blue-600 transition duration-300"
-        >
-          Home
-        </RouterLink>
-
-        <RouterLink
-          to="/about"
-          class="text-gray-700 hover:text-blue-600 transition duration-300"
+          class="text-gray-900 font-medium hover:text-[#186534] transition duration-300"
         >
           About
         </RouterLink>
 
         <RouterLink
-          to="/services"
-          class="text-gray-700 hover:text-blue-600 transition duration-300"
+          to="/about"
+          class="text-gray-900 font-medium hover:text-[#186534] transition duration-300"
         >
           Services
         </RouterLink>
 
         <RouterLink
+          to="/services"
+          class="text-gray-900 font-medium hover:text-[#186534] transition duration-300"
+        >
+          Products
+        </RouterLink>
+
+        <RouterLink
           to="/contact"
-          class="text-gray-700 hover:text-blue-600 transition duration-300"
+          class="text-gray-900 font-medium hover:text-[#186534] transition duration-300"
+        >
+          Pricing
+        </RouterLink>
+        <RouterLink
+          to="/contact"
+          class="text-gray-900 font-medium hover:text-[#186534] transition duration-300"
         >
           Contact
         </RouterLink>
