@@ -1,6 +1,35 @@
 <script setup>
 import AppContainer from '@/components/ui/AppContainer.vue';
-
+    const products = [
+    {
+        id: '01',
+        title: 'RALE ERP',
+        description:
+        'A next-generation enterprise resource planning platform that unifies operations, inventory, finance, and logistics into one breathing system built for Filipino SMEs.',
+        tags: ['ERP', 'SAAS', 'DASHBOARD'],
+    },
+    {
+        id: '02',
+        title: 'RALE HRIS',
+        description:
+        'Full-spectrum HR information system covering talent acquisition, performance cycles, payroll processing, and employee lifecycle management.',
+        tags: ['HRIS', 'PAYROLL', 'WORKFORCE'],
+    },
+    {
+        id: '03',
+        title: 'RALE IMS',
+        description:
+        'Intelligent inventory management with real-time stock tracking, automated reorder alerts, multi-warehouse support, and supplier management.',
+        tags: ['INVENTORY', 'WAREHOUSE', 'TRACKING'],
+    },
+    {
+        id: '04',
+        title: 'RALE FINANCE',
+        description:
+        'Intelligent financial management with real-time reporting, budget forecasting, scenario modeling, and compliance-ready accounting tools.',
+        tags: ['FINANCE', 'ACCOUNTING', 'REPORTING'],
+    },
+    ]
 </script>
 <template>
     <section>
@@ -26,124 +55,42 @@ import AppContainer from '@/components/ui/AppContainer.vue';
                         </span>
                     </h2>
                 </div>
-                <div class="mt-10">
                     <div
-                        class="grid grid-cols-[60px_180px_1fr_280px_40px]
-                            items-center
-                            gap-8
-                            border-y
-                            border-gray-200 
-                            py-10"
-                            
+                        v-for="product in products"
+                        :key="product.id"
+                        class="grid grid-cols-[60px_220px_1fr_250px_40px] items-center gap-8 border-b border-gray-200 py-10"
                     >
                         <!-- Number -->
-                        <span class="text-sm text-gray-500">
-                        01
+                        <span class="text-sm">
+                        {{ product.id }}
                         </span>
 
                         <!-- Title -->
-                        <h3 class="text-4xl font-semibold uppercase">
-                        RALE <span class="text-green-700">ERP</span>
+                        <h3 class="text-3xl font-bold">
+                        {{ product.title }}
                         </h3>
 
                         <!-- Description -->
-                        <p class="text-lg text-gray-600 leading-relaxed">
-                        A next-generation enterprise resource planning platform that unifies
-                        operations, inventory, finance, and logistics into one breathing
-                        system built for Filipino SMEs.
+                        <p class="text-gray-600">
+                        {{ product.description }}
                         </p>
 
                         <!-- Tags -->
-                        <div class="flex justify-end gap-6 text-sm uppercase">
-                        <span>ERP</span>
-                        <span>•</span>
-                        <span>SAAS</span>
-                        <span>•</span>
-                        <span>DASHBOARD</span>
-                        </div>
-
-                        <!-- button -->
-                        <button class="text-3xl">
-                        ↗
-                        </button>
-                    </div>
-                    <div
-                        class="grid grid-cols-[60px_180px_1fr_280px_40px]
-                            items-center
-                            gap-8
-                            border-b
-                            border-gray-200 
-                            py-10"
-                            
-                    >
-                        <!-- Number -->
-                        <span class="text-sm text-gray-500">
-                        01
+                        <div class="flex justify-end gap-4 text-xs uppercase">
+                        <span
+                            v-for="tag in product.tags"
+                            :key="tag"
+                        >
+                            {{ tag }}
                         </span>
-
-                        <!-- Title -->
-                        <h3 class="text-4xl font-semibold uppercase">
-                        RALE <span class="text-green-700">ERP</span>
-                        </h3>
-
-                        <!-- Description -->
-                        <p class="text-lg text-gray-600 leading-relaxed">
-                            Intelligent inventory management with real-time stock tracking, automated reorder alerts, multi-warehouse support, and supplier management.
-                        </p>
-
-                        <!-- Tags -->
-                        <div class="flex justify-end gap-6 text-sm uppercase">
-                        <span>ERP</span>
-                        <span>•</span>
-                        <span>SAAS</span>
-                        <span>•</span>
-                        <span>DASHBOARD</span>
                         </div>
 
-                        <!-- button -->
-                        <button class="text-3xl">
+                        <!-- Arrow -->
+                        <button class="text-2xl">
                         ↗
                         </button>
                     </div>
-                    <div
-                        class="grid grid-cols-[60px_180px_1fr_280px_40px]
-                            items-center
-                            gap-8
-                            border-b
-                            border-gray-200 
-                            py-10"
-                            
-                    >
-                        <!-- Number -->
-                        <span class="text-sm text-gray-500">
-                        01
-                        </span>
 
-                        <!-- Title -->
-                        <h3 class="text-4xl font-semibold uppercase">
-                        RALE <span class="text-green-700">ERP</span>
-                        </h3>
-
-                        <!-- Description -->
-                        <p class="text-lg text-gray-600 leading-relaxed">
-                            Full-spectrum HR information system covering talent acquisition, performance cycles, payroll processing, and employee lifecycle management.
-                        </p>
-
-                        <!-- Tags -->
-                        <div class="flex justify-end gap-6 text-sm uppercase">
-                        <span>ERP</span>
-                        <span>•</span>
-                        <span>SAAS</span>
-                        <span>•</span>
-                        <span>DASHBOARD</span>
-                        </div>
-
-                        <!-- button -->
-                        <button class="text-3xl">
-                        ↗
-                        </button>
-                    </div>
-                </div>
 
 
             </div>

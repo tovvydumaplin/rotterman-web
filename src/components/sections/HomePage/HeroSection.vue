@@ -4,6 +4,7 @@ import Header from '@/components/layout/Navbar.vue'
 import BaseButton from '@/components/ui/BaseButton.vue';
 import heroImage from '@/assets/images/hero-image.png'
 
+
 </script>
 
 <template>
@@ -54,7 +55,26 @@ import heroImage from '@/assets/images/hero-image.png'
             <img
               :src="heroImage"
               alt="Hero"
-              class="w-full h-auto scale-120 translate-x-10"
+              class="
+                  w-70
+                  sm:w-87.5
+                  md:w-112.5
+                  lg:w-137.5
+                  xl:w-162.5
+                  2xl:w-187.5
+
+                  h-auto
+
+                  scale-100
+                  md:scale-105
+                  lg:scale-110
+                  xl:scale-115
+
+                  translate-x-0
+                  md:translate-x-4
+                  lg:translate-x-8
+                  xl:translate-x-10
+              "
             />
         </div>
 
