@@ -90,9 +90,6 @@ import AppContainer from '@/components/ui/AppContainer.vue';
                         ↗
                         </button>
                     </div>
-
-
-
             </div>
         </AppContainer>
     </section>
