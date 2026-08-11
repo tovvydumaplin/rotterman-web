@@ -32,18 +32,19 @@
                     </p>
                     <div class="w-full mt-7.5">
                         <div class="grid grid-cols-[62px_1fr] gap-12.5 border-y border-gray-200 py-5">
-                            <h5 class="text-[#B9B9B9]! ">EMAIL</h5>
+                            <h5 class="text-sm text-[#B9B9B9]! ">EMAIL</h5>
                             <p>rotterman@example.com</p>
                         </div>
                         <div class="grid grid-cols-[62px_1fr] gap-12.5 border-b border-gray-200 py-5">
-                            <h5 class="text-[#B9B9B9]! ">Phone</h5>
+                            <h5 class="text-sm text-[#B9B9B9]! ">Phone</h5>
                             <p>+63 93238512313</p>
                         </div>
                         <div class="grid grid-cols-[62px_1fr] gap-12.5 border-b border-gray-200 py-5">
-                            <h5 class="text-[#B9B9B9]! ">EMAIL</h5>
+                            <h5 class="text-sm text-[#B9B9B9]! ">EMAIL</h5>
                             <p>Philippines Laguna</p>
                         </div>
                     </div>
+                    <h5 class="text-sm text-[#B9B9B9]! mt-5">reply within 1 business day</h5>
                 </div>
 
 
