@@ -6,9 +6,9 @@ import AboutImage from '@/assets/images/about-image.png'
 </script>
 
 <template>
-  <section class="relative gap-4 md:gap-6 lg:gap-8 xl:gap-10 overflow-hidden">
+  <section class="relative gap-4 md:gap-6 lg:gap-8 xl:gap-10 overflow-hidden py-30">
     <AppContainer>
-      <div class="grid grid-cols-2 items-center gap-25 py-30">
+      <div class="grid grid-cols-2 items-center gap-25">
         <!-- Left -->
         <div class="w-full">
             <img
