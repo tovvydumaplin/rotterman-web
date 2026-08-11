@@ -44,10 +44,50 @@
                     grid-cols-1
                     lg:grid-cols-2
                     min-h-100
-                    gap-42.5
+                    gap-25
                     ">
                     <div class="flex justify-end">Icon</div>
-                    <div>text</div>
+                    <div class="w-96.75">
+                        <h3 class="text-3xl font-bold text-white!">DISCOVERY</h3>
+                        <p class="mt-5 text-white">We learn your business inside out — your workflows, your pain points, your goals. No assumptions, no guesswork, just deep listening.</p>
+                    </div>
+
+                    <div class="w-84.25 ml-auto text-right ">
+                        <h3 class="text-3xl font-bold text-white!">
+                            BLUEPRINT
+                        </h3>
+
+                        <p class="mt-5 text-white">
+                            We design your system architecture, user flows,
+                            and UI mockups.
+                        </p>
+                    </div>
+
+                    <div class="flex justify-start">
+                        Icon
+                    </div>
+
+                    <div class="flex justify-end">Icon</div>
+
+                    <div class="w-96.75">
+                        <h3 class="text-3xl font-bold text-white!">Build</h3>
+                        <p class="mt-5 text-white">Our developers build and rigorously test your solution. Regular check-ins keep you in the loop at every milestone — no surprises.</p>
+                    </div>
+
+                    <div class="w-84.25 ml-auto text-right ">
+                        <h3 class="text-3xl font-bold text-white!">
+                            Launch & Support
+                        </h3>
+
+                        <p class="mt-5 text-white">
+                            We deploy your system, train your team, and remain your dedicated support partner.
+                        </p>
+                    </div>
+
+                    <div class="flex justify-start">
+                        Icon
+                    </div>
+                    
             </div>
         </AppContainer>
     </section>
