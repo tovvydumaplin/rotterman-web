@@ -63,6 +63,7 @@ defineProps({
     border-radius: 5px;
     cursor: pointer;
     transition: all 0.2s ease;
+    text-transform: uppercase;
   }
 
   .base-button:disabled {

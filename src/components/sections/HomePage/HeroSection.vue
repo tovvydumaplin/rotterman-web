@@ -49,7 +49,6 @@ import heroImage from '@/assets/images/hero-image.png'
           </div>
         </div>
 
-
         <!-- Right -->
         <div class="flex justify-center">
             <img

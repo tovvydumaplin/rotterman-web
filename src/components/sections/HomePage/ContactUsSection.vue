@@ -5,7 +5,7 @@
 <template>
     <section class="py-30 bg-[#F7F7F0]">
         <AppContainer>
-            <div class="grid grid-cols-2 items-center gap-25">
+            <div class="grid grid-cols-2 gap-25">
                 <!-- Left -->
                 <div>
                     <h5 class="text-sm">
@@ -40,7 +40,7 @@
                             <p>+63 93238512313</p>
                         </div>
                         <div class="grid grid-cols-[62px_1fr] gap-12.5 border-b border-gray-200 py-5">
-                            <h5 class="text-sm text-[#B9B9B9]! ">EMAIL</h5>
+                            <h5 class="text-sm text-[#B9B9B9]! ">Location</h5>
                             <p>Philippines Laguna</p>
                         </div>
                     </div>
@@ -50,7 +50,169 @@
 
                 <!-- Right -->
                 <div class="w-full bg-[#182423] p-10 rounded-sm">
-                    
+                    <h3 class="text-white! text-3xl">Let's Discuss Your Project</h3>
+                    <div class="contact-form flex flex-col gap-5">
+                        <div class="mt-7.5 grid grid-cols-2 gap-5">
+                            <div class="w-full">
+                                <label
+                                    for="fullname"
+                                    class="block mb-2 text-xs font-medium uppercase text-white/80"
+                                >
+                                    Fullname
+                                    <span class="text-[#186534]">*</span>
+                                </label>
+
+                                <input
+                                    id="fullname"
+                                    type="text"
+                                    placeholder="Enter your fullname"
+                                    class="
+                                        w-full
+                                        h-12
+                                        px-4
+                                        rounded
+                                        border
+                                        border-white/60
+                                        bg-transparent
+                                        text-white
+                                        placeholder:text-white/30
+                                        outline-none
+                                        focus:border-[#186534]
+                                        transition-colors
+                                    "
+                                />
+                            </div>
+                            <div class="w-full">
+                                <label
+                                    for="email"
+                                    class="block mb-2 text-xs font-medium uppercase text-white/80"
+                                >
+                                    Email
+                                    <span class="text-[#186534]">*</span>
+                                </label>
+
+                                <input
+                                    id="email"
+                                    type="text"
+                                    placeholder="Enter your email"
+                                    class="
+                                        w-full
+                                        h-12
+                                        px-4
+                                        rounded
+                                        border
+                                        border-white/60
+                                        bg-transparent
+                                        text-white
+                                        placeholder:text-white/30
+                                        outline-none
+                                        focus:border-[#186534]
+                                        transition-colors
+                                    "
+                                />
+                            </div>
+                        </div>
+
+                        <div class="w-full organization">
+                            <label
+                                for="organization"
+                                class="block mb-2 text-xs font-medium uppercase text-white/80"
+                            >
+                                Organization
+                                <span class="text-[#186534]">*</span>
+                            </label>
+
+                            <input
+                                id="organization"
+                                type="text"
+                                placeholder="Enter your organization"
+                                class="
+                                    w-full
+                                    h-12
+                                    px-4
+                                    rounded
+                                    border
+                                    border-white/60
+                                    bg-transparent
+                                    text-white
+                                    placeholder:text-white/30
+                                    outline-none
+                                    focus:border-[#186534]
+                                    transition-colors
+                                "
+                            />
+                        </div>
+                        
+                        <div class="w-full project-type">
+                            <label
+                                for="project-type"
+                                class="block mb-2 text-xs font-medium uppercase text-white/80"
+                            >
+                                Project Type
+                                <span class="text-[#186534]">*</span>
+                            </label>
+
+                            <input
+                                id="project-type"
+                                type="text"
+                                placeholder="Tell us what you need..."
+                                class="
+                                    w-full
+                                    h-12
+                                    px-4
+                                    rounded
+                                    border
+                                    border-white/60
+                                    bg-transparent
+                                    text-white
+                                    placeholder:text-white/30
+                                    outline-none
+                                    focus:border-[#186534]
+                                    transition-colors
+                                "
+                            />
+                        </div>
+
+                        <div class="w-full project-details">
+                            <label
+                                for="project-details"
+                                class="block mb-2 text-xs font-medium uppercase text-white/80"
+                            >
+                                Project Details
+                                <span class="text-[#186534]">*</span>
+                            </label>
+
+                            <textarea
+                                id="project-details"
+                                placeholder="Explain your project..."
+                                class="
+                                    w-full
+                                    h-30
+                                    px-3
+                                    py-3
+                                    rounded-[3px]
+                                    border
+                                    border-white/60
+                                    bg-transparent
+                                    text-sm
+                                    text-white
+                                    placeholder:text-white/30
+                                    outline-none
+                                    resize-none
+                                    focus:border-[#186534]
+                                    transition-colors
+                                "
+                            ></textarea>
+                        </div>
+
+                        <BaseButton 
+                            variant="primary" 
+                            size="md"
+                            @click="goToPreviousTab"
+                        >
+                            Send Inquiry
+                        </BaseButton>
+                    </div>
                 </div>
             </div>
         </AppContainer>
