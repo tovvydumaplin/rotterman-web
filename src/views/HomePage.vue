@@ -7,6 +7,7 @@
     <ServicesSection />
     <ProcessSection />
     <ContactUsSection />
+    <FooterSection />
   </main>
 </template>
 
@@ -17,4 +18,5 @@ import ProductsSection from '../components/sections/HomePage/ProductsSection.vue
 import ServicesSection from '../components/sections/HomePage/ServicesSection.vue'
 import ProcessSection from '../components/sections/HomePage/ProcessSection.vue'
 import ContactUsSection from '../components/sections/HomePage/ContactUsSection.vue'
+import FooterSection from '@/components/layout/Footer.vue'
 </script>

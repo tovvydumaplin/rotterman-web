@@ -16,7 +16,6 @@
                 <h5 class="text-sm text-center text-white!">
                     OUR PROCESS / HOW WE WORK
                 </h5>
-
                 <h2 class="
                     text-center
                     font-semibold
