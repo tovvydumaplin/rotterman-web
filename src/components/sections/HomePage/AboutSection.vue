@@ -46,14 +46,14 @@ import AboutImage from '@/assets/images/about-image.png'
           <div class="mt-10 flex gap-4">
             <BaseButton 
                 variant="primary" 
-                size="lg"
+                size="md"
                 @click="goToPreviousTab"
             >
                 See How We Build
             </BaseButton>
             <BaseButton 
                 variant="secondary" 
-                size="lg"
+                size="md"
                 @click="goToPreviousTab"
             >
                 Learn About Us

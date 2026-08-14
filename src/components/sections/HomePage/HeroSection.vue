@@ -41,7 +41,7 @@ import heroImage from '@/assets/images/hero-image.png'
           <div class="mt-10 flex gap-4">
             <BaseButton 
                 variant="primary" 
-                size="lg"
+                size="md"
                 @click="goToPreviousTab"
             >
                 Let’s Build Your System

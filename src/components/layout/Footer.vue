@@ -119,7 +119,7 @@
                 </div>
             </div>
 
-            <div class="border-t border-[#B9B9B9] mt-15 py-7.5 flex justify-between">
+            <div class="border-t border-[#B9B9B9] mt-30 py-7.5 flex justify-between">
                 <h5 class="text-[#B9B9B9]! text-sm">© 2026 - Rotterman. All Rights Reserved.</h5>
                 <h5 class="text-[#B9B9B9]! text-sm">BUILT IN PHILIPPINES</h5>
             </div>
