@@ -32,6 +32,8 @@ import AboutImage from '@/assets/images/about-image.png'
               sm:w-80 
               md:w-96 
               lg:w-[450px]
+              xl:w-full
+
 
               h-auto 
               scale-120 
