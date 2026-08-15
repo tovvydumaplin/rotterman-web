@@ -8,75 +8,112 @@ import heroImage from '@/assets/images/hero-image.png'
 </script>
 
 <template>
-  <section class="min-h-screen relative gap-4 md:gap-6 lg:gap-8 xl:gap-10 overflow-hidden bg-[#F7F7F0]">
+  <section class="lg:min-h-screen relative gap-4 md:gap-6 lg:gap-8 xl:gap-10 overflow-hidden bg-[#F7F7F0]">
     <AppContainer>
       <Header />
-      <div class="grid grid-cols-2 gap-8 py-30">
-        <!-- Left -->
-        <div>
-          <h5 class="text-sm">
-            custom software for filipino smes
-          </h5>
+      <div
+        class="
+          grid
+          grid-cols-1
+          lg:grid-cols-2
+          items-center
+          gap-12
+          lg:gap-16
+          xl:gap-20
+          py-16
+          md:py-20
+          lg:py-24
+          xl:py-30
+        "
+      >
+          <!-- Left -->
+          <div class="text-center lg:text-left">
 
-          <h1 class="
-            font-heading 
-            font-semibold
-            mt-2 
-            text-4xl
-            md:text-5xl
-            lg:text-6xl
-            xl:text-7xl
-            2xl:text-8xl"
-            >
-            DIGITAL SOLUTIONS
-            <span class="primary-color">
-              BUILT AROUND YOUR BUSINESS
-            </span>
-          </h1>
+              <h5 class="text-xs sm:text-sm uppercase tracking-wide">
+                  Custom software for Filipino SMEs
+              </h5>
 
-          <p class="mt-5 max-w-xl text-md">
-            We build custom ERP, HRIS, POS, and business management systems that help Filipino companies automate workflows, improve efficiency, and scale faster.
-          </p>
+              <h1
+                  class="
+                      font-heading
+                      font-semibold
+                      mt-2
 
-          <div class="mt-10 flex gap-4">
-            <BaseButton 
-                variant="primary" 
-                size="md"
-                @click="goToPreviousTab"
-            >
-                Let’s Build Your System
-            </BaseButton>
+                      text-5xl
+                      md:text-6xl
+                      lg:text-6xl
+                      xl:text-7xl
+                      2xl:text-8xl
+
+                      leading-[0.95]
+                  "
+              >
+                  DIGITAL SOLUTIONS
+                  <span class="primary-color block">
+                      BUILT AROUND YOUR BUSINESS
+                  </span>
+              </h1>
+
+              <p
+                  class="
+                      mt-6
+                      max-w-xl
+                      mx-auto
+                      lg:mx-0
+                      text-base
+                      md:text-lg
+                      leading-relaxed
+                  "
+              >
+                  We build custom ERP, HRIS, POS, and business management
+                  systems that help Filipino companies automate workflows,
+                  improve efficiency, and scale faster.
+              </p>
+
+              <div class="mt-8 lg:mt-10 flex justify-center lg:justify-start">
+                  <BaseButton
+                      variant="primary"
+                      size="md"
+                      @click="goToPreviousTab"
+                  >
+                      Let’s Build Your System
+                  </BaseButton>
+              </div>
           </div>
-        </div>
 
-        <!-- Right -->
-        <div class="flex justify-center">
-            <img
-              :src="heroImage"
-              alt="Hero"
+
+          <!-- Right -->
+          <div
               class="
-                  w-70
-                  sm:w-87.5
-                  md:w-112.5
-                  lg:w-137.5
-                  xl:w-162.5
-                  2xl:w-187.5
-
-                  h-auto
-
-                  scale-100
-                  md:scale-105
-                  lg:scale-110
-                  xl:scale-115
-
-                  translate-x-0
-                  md:translate-x-4
-                  lg:translate-x-8
-                  xl:translate-x-10
+                    hidden
+                    lg:flex
+                    justify-center
+                    lg:justify-end
+                    mt-4
+                    lg:mt-0
               "
-            />
-        </div>
+          >
+              <img
+                  :src="heroImage"
+                  alt="Hero"
+                  class="
+                      w-64
+                      sm:w-80
+                      md:w-96
+                      lg:w-[450px]
+                      xl:w-[550px]
+                      2xl:w-[650px]
 
+                      h-auto
+                      object-contain
+
+                      lg:translate-x-4
+                      xl:translate-x-8
+                      2xl:translate-x-10
+                  "
+              />
+          </div>
+          
       </div>
     </AppContainer>
   </section>

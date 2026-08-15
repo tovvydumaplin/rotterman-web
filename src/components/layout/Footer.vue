@@ -17,24 +17,7 @@
                     />
                 </div>
                 <!-- FOOTER MENUS  -->
-                <div class="footer-menus flex gap-32.5">
-                    <div class="contact">
-                        <h5 class="text-sm text-[#B9B9B9]!">Contact</h5>
-                        <nav class="flex flex-col gap-5 mt-7.5">
-                            <RouterLink
-                                to="/"
-                                class="text-white hover:text-[#186534] transition duration-300"
-                                >
-                                rotterman@example.com
-                            </RouterLink>
-                            <RouterLink
-                                to="/"
-                                class="text-white hover:text-[#186534] transition duration-300"
-                                >
-                                +63 93238512313
-                            </RouterLink>
-                        </nav>
-                    </div>
+                <div class="footer-menus flex gap-25">
                     <div class="sitemap">
                         <h5 class="text-sm text-[#B9B9B9]!">Sitemap</h5>
                         <nav class="flex flex-col gap-5 mt-7.5">
@@ -113,6 +96,34 @@
                                 class="text-white hover:text-[#186534] transition duration-300"
                                 >
                                 Instagram
+                            </RouterLink>
+                        </nav>
+                    </div>
+                    <div class="location">
+                        <h5 class="text-sm text-[#B9B9B9]!">Location</h5>
+                        <nav class="flex flex-col gap-5 mt-7.5">
+                            <RouterLink
+                                to="/"
+                                class="text-white hover:text-[#186534] transition duration-300"
+                                >
+                                Philippines Laguna
+                            </RouterLink>
+                        </nav>
+                    </div>
+                    <div class="contact">
+                        <h5 class="text-sm text-[#B9B9B9]!">Contact</h5>
+                        <nav class="flex flex-col gap-5 mt-7.5">
+                            <RouterLink
+                                to="/"
+                                class="text-white hover:text-[#186534] transition duration-300"
+                                >
+                                rotterman@example.com
+                            </RouterLink>
+                            <RouterLink
+                                to="/"
+                                class="text-white hover:text-[#186534] transition duration-300"
+                                >
+                                +63 93238512313
                             </RouterLink>
                         </nav>
                     </div>
