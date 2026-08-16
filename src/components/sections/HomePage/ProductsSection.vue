@@ -36,7 +36,7 @@ import { ArrowRight } from 'lucide-vue-next'
 <template>
     <section>
         <AppContainer>
-            <div class="py-30">
+            <div class="py-20 xl:py-30">
                 <div>
                     <h5 class="text-sm">
                         OUR PRODUCT / MEET RALE
@@ -45,11 +45,12 @@ import { ArrowRight } from 'lucide-vue-next'
                     <h2 class="
                         font-semibold
                         mt-2 
-                        text-2xl
-                        md:text-3xl
-                        lg:text-4xl
+                        text-3xl
+                        md:text-4xl
+                        lg:text-5xl
                         xl:text-6xl
-                        2xl:text-7xl"
+                        2xl:text-7xl
+                        "
                         >
                         What we’ve
                         <span class="primary-color">

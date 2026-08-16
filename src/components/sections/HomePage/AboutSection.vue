@@ -6,7 +6,7 @@ import AboutImage from '@/assets/images/about-image.png'
 </script>
 
 <template>
-  <section class="relative gap-4 md:gap-6 lg:gap-8 xl:gap-10 overflow-hidden py-30">
+  <section class="relative gap-4 md:gap-6 lg:gap-8 xl:gap-10 overflow-hidden py-20 xl:py-30">
     <AppContainer>
       <div class="
             grid 
@@ -62,9 +62,9 @@ import AboutImage from '@/assets/images/about-image.png'
                 class="
                     font-semibold
                     mt-2
-                    text-2xl
-                    md:text-3xl
-                    lg:text-4xl
+                    text-3xl
+                    md:text-4xl
+                    lg:text-5xl
                     xl:text-6xl
                     2xl:text-7xl
                 "
