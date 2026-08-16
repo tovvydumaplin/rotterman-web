@@ -58,25 +58,75 @@ import AppContainer from '@/components/ui/AppContainer.vue';
                     <div
                         v-for="product in products"
                         :key="product.id"
-                        class="grid grid-cols-[60px_220px_1fr_250px_40px] items-center gap-8 border-b border-gray-200 py-10"
+                        class="
+                            grid
+
+                            grid-cols-[40px_1fr_40px]
+                            gap-x-4
+                            gap-y-5
+                            py-8
+
+                            lg:grid-cols-[60px_220px_1fr_250px_40px]
+                            lg:items-center
+                            lg:gap-8
+                            lg:py-10
+
+                            border-b
+                            border-gray-200
+                        
+                        "
                     >
                         <!-- Number -->
-                        <span class="text-sm">
+                        <span class="
+                            text-sm
+                            self-start
+                            lg:self-auto
+                        ">
                         {{ product.id }}
                         </span>
 
                         <!-- Title -->
-                        <h3 class="text-3xl font-bold">
+                        <h3 class="
+                            text-2xl
+                            sm:text-3xl
+                            font-bold
+
+                            col-span-1
+
+                            lg:col-span-1
+                        
+                        ">
                         {{ product.title }}
                         </h3>
 
                         <!-- Description -->
-                        <p class="text-gray-600">
+                        <p class="
+                            col-span-3
+                            text-gray-600
+                            text-sm
+                            sm:text-base
+                            leading-relaxed
+
+                            lg:col-span-1
+                        
+                        ">
                         {{ product.description }}
                         </p>
 
                         <!-- Tags -->
-                        <div class="flex justify-end gap-4 text-xs uppercase">
+                        <div class="
+                                col-start-2
+                                flex
+                                flex-wrap
+                                gap-x-4
+                                gap-y-2
+                                text-xs
+                                uppercase
+
+                                lg:col-start-auto
+                                lg:justify-end
+                                lg:gap-4
+                        ">
                         <span
                             v-for="tag in product.tags"
                             :key="tag"
@@ -86,7 +136,18 @@ import AppContainer from '@/components/ui/AppContainer.vue';
                         </div>
 
                         <!-- Arrow -->
-                        <button class="text-2xl">
+                        <button class="
+                                col-start-3
+                                row-start-2
+                                justify-self-end
+                                self-end
+                                text-2xl
+
+                                lg:col-start-auto
+                                lg:row-start-auto
+                                lg:self-auto
+                        
+                        ">
                         ↗
                         </button>
                     </div>

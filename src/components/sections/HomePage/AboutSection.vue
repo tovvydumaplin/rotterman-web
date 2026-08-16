@@ -22,15 +22,16 @@ import AboutImage from '@/assets/images/about-image.png'
               justify-center
               mt-4
               lg:mt-0
+
+              order-2
+              lg:order-1
               "
               >
             <img
               :src="AboutImage"
               alt="Hero"
               class="
-              w-64
-              sm:w-80 
-              md:w-96 
+              w-96
               lg:w-[450px]
               xl:w-full
 
@@ -45,7 +46,13 @@ import AboutImage from '@/assets/images/about-image.png'
         </div>
 
         <!-- Right -->
-        <div class="text-center lg:text-left">
+        <div class="
+              text-center 
+              lg:text-left
+        
+              order-1
+              lg:order-2
+        ">
 
             <h5 class="text-sm">
                 About Rotterman
