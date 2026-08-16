@@ -1,5 +1,6 @@
 <script setup>
 import AppContainer from '@/components/ui/AppContainer.vue';
+import { ArrowRight } from 'lucide-vue-next'
     const products = [
     {
         id: '01',
@@ -30,6 +31,7 @@ import AppContainer from '@/components/ui/AppContainer.vue';
         tags: ['FINANCE', 'ACCOUNTING', 'REPORTING'],
     },
     ]
+
 </script>
 <template>
     <section>
@@ -61,7 +63,7 @@ import AppContainer from '@/components/ui/AppContainer.vue';
                         class="
                             grid
 
-                            grid-cols-[40px_1fr_40px]
+                            grid-cols-[1fr_40px]
                             gap-x-4
                             gap-y-5
                             py-8
@@ -78,9 +80,12 @@ import AppContainer from '@/components/ui/AppContainer.vue';
                     >
                         <!-- Number -->
                         <span class="
-                            text-sm
-                            self-start
-                            lg:self-auto
+                                hidden
+                                lg:block
+
+                                text-sm
+                                self-start
+                                lg:self-auto
                         ">
                         {{ product.id }}
                         </span>
@@ -115,7 +120,7 @@ import AppContainer from '@/components/ui/AppContainer.vue';
 
                         <!-- Tags -->
                         <div class="
-                                col-start-2
+                                col-start-1
                                 flex
                                 flex-wrap
                                 gap-x-4
@@ -138,7 +143,6 @@ import AppContainer from '@/components/ui/AppContainer.vue';
                         <!-- Arrow -->
                         <button class="
                                 col-start-3
-                                row-start-2
                                 justify-self-end
                                 self-end
                                 text-2xl
@@ -148,7 +152,7 @@ import AppContainer from '@/components/ui/AppContainer.vue';
                                 lg:self-auto
                         
                         ">
-                        ↗
+                        <ArrowRight :size="20" />
                         </button>
                     </div>
             </div>
