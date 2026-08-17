@@ -37,89 +37,89 @@
                     </span>
                 </h2>
             </div>
-<div
-    class="
-        mt-12.5
-        grid
-        grid-cols-1
-        gap-15
-        lg:grid-cols-2
-        lg:gap-25
-        lg:min-h-100
-    "
->
-    <!-- Discovery Icon -->
-    <div class="order-1 flex justify-center lg:order-1 lg:justify-end">
-        Icon
-    </div>
+            <div
+                class="
+                    mt-12.5
+                    grid
+                    grid-cols-1
+                    gap-15
+                    lg:grid-cols-2
+                    lg:gap-25
+                    lg:min-h-100
+                "
+            >
+                <!-- Discovery Icon -->
+                <div class="order-1 flex justify-center lg:order-1 lg:justify-end">
+                    Icon
+                </div>
 
-    <!-- Discovery Text -->
-    <div class="order-2 w-full text-center lg:order-2 lg:w-96.75 lg:text-left">
-        <h3 class="text-3xl font-bold text-white!">
-            DISCOVERY
-        </h3>
+                <!-- Discovery Text -->
+                <div class="order-2 w-full text-center lg:order-2 lg:w-96.75 lg:text-left">
+                    <h3 class="text-3xl font-bold text-white!">
+                        DISCOVERY
+                    </h3>
 
-        <p class="mt-5 text-white">
-            We learn your business inside out — your workflows, your pain points,
-            your goals. No assumptions, no guesswork, just deep listening.
-        </p>
-    </div>
-
-
-    <!-- Blueprint Text -->
-    <div class="order-4 w-full text-center lg:order-3 lg:ml-auto lg:w-84.25 lg:text-right">
-        <h3 class="text-3xl font-bold text-white!">
-            BLUEPRINT
-        </h3>
-
-        <p class="mt-5 text-white">
-            We design your system architecture, user flows,
-            and UI mockups.
-        </p>
-    </div>
-
-    <!-- Blueprint Icon -->
-    <div class="order-3 flex justify-center lg:order-4 lg:justify-start">
-        Icon
-    </div>
+                    <p class="mt-5 text-white">
+                        We learn your business inside out — your workflows, your pain points,
+                        your goals. No assumptions, no guesswork, just deep listening.
+                    </p>
+                </div>
 
 
-    <!-- Build Icon -->
-    <div class="order-5 flex justify-center lg:order-5 lg:justify-end">
-        Icon
-    </div>
+                <!-- Blueprint Text -->
+                <div class="order-4 w-full text-center lg:order-3 lg:ml-auto lg:w-84.25 lg:text-right">
+                    <h3 class="text-3xl font-bold text-white!">
+                        BLUEPRINT
+                    </h3>
 
-    <!-- Build Text -->
-    <div class="order-6 w-full text-center lg:order-6 lg:w-96.75 lg:text-left">
-        <h3 class="text-3xl font-bold text-white!">
-            BUILD
-        </h3>
+                    <p class="mt-5 text-white">
+                        We design your system architecture, user flows,
+                        and UI mockups.
+                    </p>
+                </div>
 
-        <p class="mt-5 text-white">
-            Our developers build and rigorously test your solution.
-            Regular check-ins keep you in the loop at every milestone —
-            no surprises.
-        </p>
-    </div>
+                <!-- Blueprint Icon -->
+                <div class="order-3 flex justify-center lg:order-4 lg:justify-start">
+                    Icon
+                </div>
 
 
-    <!-- Launch & Support Text -->
-    <div class="order-8 w-full text-center lg:order-7 lg:ml-auto lg:w-84.25 lg:text-right">
-        <h3 class="text-3xl font-bold text-white!">
-            LAUNCH & SUPPORT
-        </h3>
+                <!-- Build Icon -->
+                <div class="order-5 flex justify-center lg:order-5 lg:justify-end">
+                    Icon
+                </div>
 
-        <p class="mt-5 text-white">
-            We deploy your system, train your team, and remain your
-            dedicated support partner.
-        </p>
-    </div>
+                <!-- Build Text -->
+                <div class="order-6 w-full text-center lg:order-6 lg:w-96.75 lg:text-left">
+                    <h3 class="text-3xl font-bold text-white!">
+                        BUILD
+                    </h3>
 
-    <!-- Launch & Support Icon -->
-    <div class="order-7 flex justify-center lg:order-8 lg:justify-start">
-        Icon
-    </div>
-</div>
+                    <p class="mt-5 text-white">
+                        Our developers build and rigorously test your solution.
+                        Regular check-ins keep you in the loop at every milestone —
+                        no surprises.
+                    </p>
+                </div>
+
+
+                <!-- Launch & Support Text -->
+                <div class="order-8 w-full text-center lg:order-7 lg:ml-auto lg:w-84.25 lg:text-right">
+                    <h3 class="text-3xl font-bold text-white!">
+                        LAUNCH & SUPPORT
+                    </h3>
+
+                    <p class="mt-5 text-white">
+                        We deploy your system, train your team, and remain your
+                        dedicated support partner.
+                    </p>
+                </div>
+
+                <!-- Launch & Support Icon -->
+                <div class="order-7 flex justify-center lg:order-8 lg:justify-start">
+                    Icon
+                </div>
+            </div>
         </AppContainer>
     </section>
 </template>

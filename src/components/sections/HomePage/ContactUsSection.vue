@@ -5,7 +5,7 @@
 <template>
     <section class="py-30 bg-[#F7F7F0]">
         <AppContainer>
-            <div class="grid grid-cols-2 gap-25">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-7.5 lg:gap-25">
                 <!-- Left -->
                 <div>
                     <h5 class="text-sm">
@@ -49,14 +49,14 @@
 
 
                 <!-- Right -->
-                <div class="w-full bg-[#FAFAF7] border border-[#D5D5D5] p-10 rounded-sm">
-                    <h3 class="text-white! text-3xl">Let's Discuss Your Project</h3>
+                <div class="w-full bg-[#FAFAF7] border border-[#D5D5D5] p-[30px] lg:p-10 rounded-sm">
+                    <h3 class="text-3xl">Let's Discuss Your Project</h3>
                     <div class="contact-form flex flex-col gap-5">
-                        <div class="mt-7.5 grid grid-cols-2 gap-5">
+                        <div class="mt-7.5 grid grid-cols-1 lg:grid-cols-2 gap-5">
                             <div class="w-full">
                                 <label
                                     for="fullname"
-                                    class="block mb-2 text-xs font-medium uppercase text-white/80"
+                                    class="block mb-2 text-xs font-medium uppercase text-[#AEAEAE]"
                                 >
                                     Fullname
                                     <span class="text-[#186534]">*</span>
@@ -72,10 +72,9 @@
                                         px-4
                                         rounded
                                         border
-                                        border-white/60
+                                        border-[#B9B9B9]
                                         bg-transparent
-                                        text-white
-                                        placeholder:text-white/30
+                                        placeholder:text-[#B9B9B9]
                                         outline-none
                                         focus:border-[#186534]
                                         transition-colors
@@ -85,7 +84,7 @@
                             <div class="w-full">
                                 <label
                                     for="email"
-                                    class="block mb-2 text-xs font-medium uppercase text-white/80"
+                                    class="block mb-2 text-xs font-medium uppercase text-[#AEAEAE]"
                                 >
                                     Email
                                     <span class="text-[#186534]">*</span>
@@ -101,10 +100,9 @@
                                         px-4
                                         rounded
                                         border
-                                        border-white/60
+                                        border-[#B9B9B9]
                                         bg-transparent
-                                        text-white
-                                        placeholder:text-white/30
+                                        placeholder:text-[#B9B9B9]
                                         outline-none
                                         focus:border-[#186534]
                                         transition-colors
@@ -116,7 +114,7 @@
                         <div class="w-full organization">
                             <label
                                 for="organization"
-                                class="block mb-2 text-xs font-medium uppercase text-white/80"
+                                class="block mb-2 text-xs font-medium uppercase text-[#AEAEAE]"
                             >
                                 Organization
                                 <span class="text-[#186534]">*</span>
@@ -132,10 +130,9 @@
                                     px-4
                                     rounded
                                     border
-                                    border-white/60
+                                    border-[#B9B9B9]
                                     bg-transparent
-                                    text-white
-                                    placeholder:text-white/30
+                                    placeholder:text-[#B9B9B9]
                                     outline-none
                                     focus:border-[#186534]
                                     transition-colors
@@ -146,7 +143,7 @@
                         <div class="w-full project-type">
                             <label
                                 for="project-type"
-                                class="block mb-2 text-xs font-medium uppercase text-white/80"
+                                class="block mb-2 text-xs font-medium uppercase text-[#AEAEAE]"
                             >
                                 Project Type
                                 <span class="text-[#186534]">*</span>
@@ -162,10 +159,9 @@
                                     px-4
                                     rounded
                                     border
-                                    border-white/60
+                                    border-[#B9B9B9]
                                     bg-transparent
-                                    text-white
-                                    placeholder:text-white/30
+                                    placeholder:text-[#B9B9B9]
                                     outline-none
                                     focus:border-[#186534]
                                     transition-colors
@@ -176,7 +172,7 @@
                         <div class="w-full project-details">
                             <label
                                 for="project-details"
-                                class="block mb-2 text-xs font-medium uppercase text-white/80"
+                                class="block mb-2 text-xs font-medium uppercase text-[#AEAEAE]"
                             >
                                 Project Details
                                 <span class="text-[#186534]">*</span>
@@ -192,11 +188,10 @@
                                     py-3
                                     rounded-[3px]
                                     border
-                                    border-white/60
+                                    border-[#B9B9B9]
                                     bg-transparent
                                     text-sm
-                                    text-white
-                                    placeholder:text-white/30
+                                    placeholder:text-[#B9B9B9]
                                     outline-none
                                     resize-none
                                     focus:border-[#186534]
