@@ -49,7 +49,7 @@
 
 
                 <!-- Right -->
-                <div class="w-full bg-[#182423] p-10 rounded-sm">
+                <div class="w-full bg-[#FAFAF7] border border-[#D5D5D5] p-10 rounded-sm">
                     <h3 class="text-white! text-3xl">Let's Discuss Your Project</h3>
                     <div class="contact-form flex flex-col gap-5">
                         <div class="mt-7.5 grid grid-cols-2 gap-5">
