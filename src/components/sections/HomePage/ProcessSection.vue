@@ -21,11 +21,11 @@
                     font-semibold
                     text-white!
                     mt-2 
-                    text-2xl
-                    md:text-3xl
-                    lg:text-4xl
-                    xl:text-5xl
-                    2xl:text-6xl"
+                    text-4xl
+                    lg:text-5xl
+                    xl:text-6xl
+                    2xl:text-7xl
+                    "
                     >
                     From BRIEFING  
                     <span class="secondary-color">

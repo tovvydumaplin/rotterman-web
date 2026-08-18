@@ -32,7 +32,7 @@ import AboutImage from '@/assets/images/about-image.png'
               alt="Hero"
               class="
               w-96
-              lg:w-[450px]
+              lg:w-112.5
               xl:w-full
 
 
@@ -62,8 +62,7 @@ import AboutImage from '@/assets/images/about-image.png'
                 class="
                     font-semibold
                     mt-2
-                    text-3xl
-                    md:text-4xl
+                    text-4xl
                     lg:text-5xl
                     xl:text-6xl
                     2xl:text-7xl

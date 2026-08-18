@@ -7,13 +7,13 @@
     <section class="bg-[#071609] pt-30">
         <AppContainer>
 
-            <div class="flex justify-between">
+            <div class="flex flex-col lg:flex-row justify-between gap-[80px]">
                 <!-- LOGO  -->
                 <div class="logo-box">
                     <img
                     :src="LogoImageWhite"
                     alt="Logo"
-                    class="h-8 md:h-10 lg:h-12 xl:h-14 w-auto"
+                    class="h-12 md:h-14 lg:h-16 xl:h-18 w-auto"
                     />
                 </div>
                 <!-- FOOTER MENUS  -->

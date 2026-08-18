@@ -5,7 +5,7 @@
 <template>
     <section class="py-30 bg-[#F7F7F0]">
         <AppContainer>
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-7.5 lg:gap-25">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-25">
                 <!-- Left -->
                 <div>
                     <h5 class="text-sm">
@@ -15,11 +15,11 @@
                     <h2 class="
                         font-semibold
                         mt-2 
-                        text-2xl
-                        md:text-3xl
-                        lg:text-4xl
+                        text-4xl
+                        lg:text-5xl
                         xl:text-6xl
-                        2xl:text-7xl"
+                        2xl:text-7xl
+                        "
                         >
                         Ready to Transform
                         <span class="primary-color">
@@ -49,7 +49,7 @@
 
 
                 <!-- Right -->
-                <div class="w-full bg-[#FAFAF7] border border-[#D5D5D5] p-[30px] lg:p-10 rounded-sm">
+                <div class="w-full bg-[#FAFAF7] border border-[#D5D5D5] p-7.5 lg:p-10 rounded-sm">
                     <h3 class="text-3xl">Let's Discuss Your Project</h3>
                     <div class="contact-form flex flex-col gap-5">
                         <div class="mt-7.5 grid grid-cols-1 lg:grid-cols-2 gap-5">

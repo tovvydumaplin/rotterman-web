@@ -12,8 +12,7 @@ import AppContainer from '@/components/ui/AppContainer.vue';
                     <h2 class="
                         font-semibold
                         mt-2 
-                        text-3xl
-                        md:text-4xl
+                        text-4xl
                         lg:text-5xl
                         xl:text-6xl
                         2xl:text-7xl

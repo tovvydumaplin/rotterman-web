@@ -7,7 +7,7 @@
     <ServicesSection />
     <ProcessSection />
     <ContactUsSection />
-    <!-- <FooterSection /> -->
+    <FooterSection />
   </main>
 </template>
 
