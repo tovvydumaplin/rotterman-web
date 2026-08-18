@@ -7,7 +7,7 @@
     <section class="bg-[#071609] pt-30">
         <AppContainer>
 
-            <div class="flex flex-col lg:flex-row justify-between gap-[80px]">
+            <div class="flex flex-col lg:flex-row justify-between items-center lg:items-start gap-[80px]">
                 <!-- LOGO  -->
                 <div class="logo-box">
                     <img
@@ -17,7 +17,7 @@
                     />
                 </div>
                 <!-- FOOTER MENUS  -->
-                <div class="footer-menus flex gap-37.5">
+                <div class="footer-menus flex gap-[80px] md:gap-25 lg:gap-37.5">
                     <div class="sitemap">
                         <h5 class="text-sm text-[#B9B9B9]!">Sitemap</h5>
                         <nav class="flex flex-col gap-5 mt-7.5">
@@ -102,7 +102,7 @@
                 </div>
             </div>
 
-            <div class="border-t border-[#B9B9B9] mt-30 py-7.5 flex justify-between">
+            <div class="border-t border-[#B9B9B9] mt-30 py-7.5 flex flex-col lg:flex-row gap-7.5 text-center justify-between">
                 <h5 class="text-[#B9B9B9]! text-sm">© 2026 - Rotterman. All Rights Reserved.</h5>
                 <h5 class="text-[#B9B9B9]! text-sm">BUILT IN PHILIPPINES</h5>
             </div>
