@@ -1,6 +1,4 @@
 <template>
-
-  <main>
     <HeroSection />
     <AboutSection />
     <ProductsSection />
@@ -8,7 +6,6 @@
     <ProcessSection />
     <ContactUsSection />
     <FooterSection />
-  </main>
 </template>
 
 <script setup>

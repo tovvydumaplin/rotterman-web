@@ -5,5 +5,8 @@ import Header from '@/components/layout/Navbar.vue'
 
 <template>
   <Header />
-  <RouterView />
+  <main>
+    <RouterView />
+  </main>
+
 </template>
