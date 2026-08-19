@@ -1,13 +1,29 @@
+<script setup>
+import { RouterLink} from 'vue-router'
+import LogoImage from '@/assets/images/rotterman-logo.png'
+import BaseButton from '@/components/ui/BaseButton.vue';
+import { Menu } from 'lucide-vue-next'
+import AppContainer from '@/components/ui/AppContainer.vue';
+</script>
+
 <template>
-  <header class="w-full">
+  <header class="
+            sticky
+            top-0
+            z-50
+            w-full
+            bg-[#F7F7F0]/95
+            backdrop-blur-md
+  ">
+  <AppContainer>
     <div
-      class="
-        flex
-        items-center
-        justify-between
-        py-5
-      "
-    >
+        class="
+            flex
+            items-center
+            justify-between
+            py-5
+        "
+      >
 
       <!-- Logo -->
       <RouterLink to="/" class="shrink-0">
@@ -136,11 +152,7 @@
       </button>
 
     </div>
+  </AppContainer>
+
   </header>
 </template>
-<script setup>
-import { RouterLink} from 'vue-router'
-import LogoImage from '@/assets/images/rotterman-logo.png'
-import BaseButton from '@/components/ui/BaseButton.vue';
-import { Menu } from 'lucide-vue-next'
-</script>

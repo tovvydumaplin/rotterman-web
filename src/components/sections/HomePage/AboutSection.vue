@@ -93,6 +93,9 @@ import AboutImage from '@/assets/images/about-image.png'
                 class="
                     mt-10
                     flex
+                    flex-col
+                    items-center
+                    sm:flex-row
                     justify-center
                     lg:justify-start
                     gap-4

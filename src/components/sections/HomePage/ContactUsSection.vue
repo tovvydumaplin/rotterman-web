@@ -3,7 +3,7 @@
     import BaseButton from '@/components/ui/BaseButton.vue';
 </script>
 <template>
-    <section class="py-30 bg-[#F7F7F0]">
+    <section class="py-20 xl:py-30 bg-[#F7F7F0]">
         <AppContainer>
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-25">
                 <!-- Left -->

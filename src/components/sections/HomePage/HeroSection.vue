@@ -1,6 +1,5 @@
 <script setup>
 import AppContainer from '@/components/ui/AppContainer.vue';
-import Header from '@/components/layout/Navbar.vue'
 import BaseButton from '@/components/ui/BaseButton.vue';
 import heroImage from '@/assets/images/hero-image.png'
 
@@ -10,7 +9,6 @@ import heroImage from '@/assets/images/hero-image.png'
 <template>
   <section class="lg:min-h-screen relative gap-4 md:gap-6 lg:gap-8 xl:gap-10 overflow-hidden bg-[#F7F7F0]">
     <AppContainer>
-      <Header />
       <div
         class="
           grid
@@ -97,15 +95,14 @@ import heroImage from '@/assets/images/hero-image.png'
                   :src="heroImage"
                   alt="Hero"
                   class="
-                      w-64
-                      sm:w-80
-                      md:w-96
-                      lg:w-[450px]
-                      xl:w-[550px]
-                      2xl:w-[650px]
-
-                      h-auto
-                      object-contain
+                     w-[900px]
+                     h-auto
+                     scale-50
+                     
+                     lg:scale-100
+                     xl:scale-110
+                     2xl:scale-125
+                      
 
                       lg:translate-x-4
                       xl:translate-x-8

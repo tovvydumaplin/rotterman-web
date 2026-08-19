@@ -1,5 +1,6 @@
 <script setup>
 import AppContainer from '@/components/ui/AppContainer.vue';
+import { FileCode } from 'lucide-vue-next'
 </script>
 <template>
     <section class="bg-[#F3F3EF] py-20 xl:py-30">
@@ -34,7 +35,7 @@ import AppContainer from '@/components/ui/AppContainer.vue';
                             ">
                     <div class="p-7.5 border border-[#D5D5D5] rounded bg-white">
                         <div
-                            class="w-full h-58 bg-gray-200 rounded-lg flex items-center justify-center mb-6"
+                            class="w-full h-75 bg-gray-200 rounded-lg flex items-center justify-center mb-6"
                         >
                             <span class="text-gray-500 text-sm">
                                 Image Placeholder
@@ -48,16 +49,22 @@ import AppContainer from '@/components/ui/AppContainer.vue';
                     </div>
                     <div class="flex flex-col gap-7.5 ">
                         <div class="flex-1 p-7.5 border border-[#D5D5D5] rounded bg-white">
-                            <h3 class="text-3xl ">UI/ux DESIGN</h3>
+                            <div class="inline-flex bg-[#E8F1E9] p-3.75">
+                                <FileCode size="20" />
+                            </div>
+                            <h3 class="mt-7.5 text-3xl ">UI/ux DESIGN</h3>
+                            <p class="mt-5 text-md">We create stunning, modern websites tailored to your business. Every design is crafted in Figma, allowing you to review updates.</p>
                         </div>
                         <div class="flex-1 p-7.5 border border-[#D5D5D5] rounded bg-white">
-                            <h3 class="text-3xl ">UI/ux DESIGN</h3>
+                            <div class="inline-flex bg-[#E8F1E9] p-3.75">
+                                <FileCode size="20" />
+                            </div>
+                            <h3 class="mt-7.5 text-3xl ">WEB DEVELOPMENT</h3>
+                            <p class="mt-5 text-md">We build your website from the ground up based on your approved design, using modern development standards and industry best practices.</p>
                         </div>
                     </div>
                 </div>
                 
         </AppContainer>
     </section>
-
-
 </template>
