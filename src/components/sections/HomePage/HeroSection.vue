@@ -19,9 +19,9 @@ import heroImage from '@/assets/images/hero-image.png'
           lg:gap-16
           xl:gap-20
           py-16
-          md:py-20
-          lg:py-24
-          xl:py-30
+          md:py-16
+          lg:py-20
+          xl:py-25
         "
       >
           <!-- Left -->
