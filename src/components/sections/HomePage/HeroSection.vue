@@ -4,6 +4,7 @@ import BaseButton from '@/components/ui/BaseButton.vue';
 import heroImage from '@/assets/images/hero-image.png'
 
 
+
 </script>
 
 <template>
@@ -18,10 +19,14 @@ import heroImage from '@/assets/images/hero-image.png'
           gap-12
           lg:gap-16
           xl:gap-20
-          py-16
-          md:py-16
-          lg:py-20
-          xl:py-25
+          pt-28
+          pb-16
+          md:pb-16
+          md:pt-30
+          lg:pt-40
+          lg:pb-20
+          xl:pt-50
+          xl:pb-25
         "
       >
           <!-- Left -->
