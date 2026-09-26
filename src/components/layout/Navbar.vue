@@ -117,6 +117,7 @@ onUnmounted(() => {
                 <!-- Mobile Menu -->
                 <button
                     class="
+                        text-[#186534]
                         lg:hidden
                         flex
                         items-center
